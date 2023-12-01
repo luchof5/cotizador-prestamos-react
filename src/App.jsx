@@ -1,8 +1,17 @@
+import Header from "./components/HEADER.JSX"
+
 function App() {
 
-  
   return (
-    <h1 className="text-6xl font-extrabold">Hola Mundo</h1>
+      <div className="my-20 max-w-lg mx-auto bg-white shadow p-10">
+        <Header />
+
+        <input 
+          type="range"
+          className="w-full h-6 bg-gray-200 accent-lime-500 hover:accent-lime-600"
+        />
+
+      </div>
   )
 }
 
